@@ -1,0 +1,57 @@
+.tourist-home .image-title {
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.tourist-home .home-about-us {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tourist-home .home-about-us .image {
+  flex-basis: 50%;
+  padding: 30px 30px 0px 30px;
+  border-radius: 3px;
+}
+
+.tourist-home .home-about-us .image img {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.tourist-home .home-about-us .content {
+  flex-basis: 50%;
+  padding: 0px 30px;
+}
+
+.tourist-home .home-about-us .content .title {
+  padding: 30px 0px 20px 0px;
+}
+
+.tourist-home .home-tours {
+  margin-top: 30px;
+}
+
+.tourist-home .home-tours .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tourist-home .home-about-us{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tourist-home .home-about-us .image{
+    flex-basis: unset;
+    height: 300px;
+  }
+
+  .tourist-home .home-about-us .content .title {
+    text-align: center;
+  }
+}

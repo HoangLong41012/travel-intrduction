@@ -1,0 +1,107 @@
+.tour-item {
+  padding: 10px;
+  transition: transform .2s;
+}
+
+.tour-item:hover {
+  transform: scale(1.01);
+}
+
+.tour-item .tour-container {
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tour-item .tour-container .image-container {
+  padding-bottom: 10px;
+}
+
+.tour-item .tour-container .image-container img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tour-item .tour-container .content-container {
+  padding: 15px;
+  height: 240px;
+  position: relative;
+}
+
+.tour-item .tour-container .content-address {
+  position: relative;
+  padding-left: 24px;
+  margin: var(--margin-normal-line);
+}
+
+.tour-item .tour-container .content-address .address-icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  fill: var(--color-blue);
+}
+
+.tour-item .tour-container .content-address .map-icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  fill: var(--color-bright-green);
+}
+
+.tour-item .tour-container .content-describe {
+  position: relative;
+  padding-left: 24px;
+  margin: var(--margin-normal-line);
+}
+
+.tour-item .tour-container .content-describe .-icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  fill: var(--color-red);
+}
+
+.tour-item .tour-container .content-price {
+  color: var(--theme-color);
+  position: absolute;
+  left: 15px;
+  bottom: 60px;
+}
+
+.tour-item .tour-container .content-price span {
+  font-weight: 700;
+}
+
+.tour-item .tour-container .content-price span span {
+  font-size: 0.875rem;
+  font-weight: initial;
+}
+
+.tour-item .tour-container .content-view {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+
+.tour-item .tour-container .content-view .view-button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .tour-item {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .tour-item {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tour-item {
+    flex-basis: 33.333333%;
+  }
+}

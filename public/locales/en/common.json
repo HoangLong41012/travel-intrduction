@@ -1,0 +1,23 @@
+{
+  "login": "Login",
+  "phone": "Phone",
+  "enterPhone": "Enter phone number",
+  "password": "Password",
+  "enterPassword": "Enter password",
+  "forgetPassword": "Forget your password?",
+  "loginGoogle": "Login with Google",
+  "welcome": "Welcome!",
+  "welcomeInfo": "You've come back Sapa Hospitality Group. Log in to use system functions",
+  "hotel.hotel": "Hotels",
+
+  "day": "day",
+  "night": "night",
+  "pax": "pax",
+  "viewDetail": "View detail",
+
+  "home.aboutUs": "About Sapa' Central Travel",
+  "home.intro": "Sapa tours for you",
+  "home.tours": "Best seller tours",
+
+  "tour.itinerary": "Itinerary"
+}

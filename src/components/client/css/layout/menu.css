@@ -1,0 +1,37 @@
+.client-menu {
+  flex-direction: row;
+}
+
+.client-menu .client-menu-item {
+  padding: 7px 8px;
+  font-size: 14px;
+  background-color: #FFFFFF;
+}
+
+.client-menu .client-menu-item:hover {
+  color: var(--theme-color);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.client-menu .client-menu-item.-active {
+  color: var(--theme-color);
+}
+
+.client-menu .client-menu-item.-parent {
+  position: relative;
+  padding-right: 24px;
+}
+
+.client-menu .client-menu-item.-parent::before {
+  position: absolute;
+  content: '\203A';
+  top: 7px;
+  right: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .client-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,42 @@
+.tour-image-slider{
+  position: relative;
+}
+
+.tour-image-slider .-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.01);
+  z-index: 888;
+}
+
+.tour-image-slider .-navigation:hover {
+  cursor: pointer;
+}
+
+.tour-image-slider .icon-back {
+  left: 10px;
+}
+
+.tour-image-slider .icon-next {
+  right: 10px;
+}
+
+.tour-image-slider .icon-back svg, .tour-image-slider .icon-next svg {
+  fill: #FFFFFF;
+}
+
+.tour-image-slider .image-container {
+  overflow-x: scroll;
+  position: relative;
+}
+
+.tour-image-slider .image-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tour-image-slider .image-container .image-list {
+  transition: left 0.3s;
+  position: absolute;
+  left: 0px;
+}

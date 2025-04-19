@@ -1,0 +1,84 @@
+.client-footer {
+  background-color: var(--theme-color);
+  color: #FFFFFF;
+}
+
+.client-footer .footer-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.client-footer .footer-logo-container .logo-image {
+  margin-right: 20px;
+}
+
+.client-footer .footer-logo-container .logo-image svg {
+  fill: #FFFFFF;
+  height: 48px;
+  width: 48px;
+}
+
+.client-footer .footer-logo-container .logo-name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-items {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer-items .-item-container {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.footer-items .-item-container .-item {
+  width: 100%;
+}
+
+.footer-items .-item-container .-item .title {
+  padding-bottom: 10px;
+}
+
+.footer-items .-item-container .-item .content-item {
+  padding-left: 24px;
+  position: relative;
+  margin: var(--margin-normal-line);
+}
+
+.footer-items .-item-container .-item .content-item .-icon {
+  top: 0px;
+  left: 0px;
+}
+
+.footer-items .footer-contact .social-icons {
+  margin-top: 5px;
+}
+
+.footer-items .footer-contact .social-icons .-icon24{
+  fill: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-items .-item-container {
+    flex-basis: 90%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .footer-items .-item-container {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer-items .-item-container {
+    flex-basis: 33.333333%;
+  }
+}

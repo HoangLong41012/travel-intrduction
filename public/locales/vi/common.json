@@ -1,0 +1,23 @@
+{
+  "login": "Đăng nhập",
+  "phone": "Số điện thoại",
+  "enterPhone": "Nhập số điện thoại",
+  "enterPassword": "Nhập mật khẩu",
+  "password": "Mật khẩu",
+  "forgetPassword": "Quên mật khẩu?",
+  "loginGoogle": "Đăng nhập với Google",
+  "welcome": "Chào mừng!",
+  "welcomeInfo": "Bạn đã quay trở lại với Sapa Hospitality Hotel. Đăng nhập để sử dụng các chức năng của hệ thống!",
+  "hotel.hotel": "Danh sách khách sạn",
+
+  "day": "ngày",
+  "night": "đêm",
+  "pax": "lượt",
+  "viewDetail": "Chi tiết",
+
+  "home.aboutUs": "Về chúng tôi - Sapa Central Travel",
+  "home.intro": "Sapa tour giành cho bạn",
+  "home.tours": "Best seller tour",
+
+  "tour.itinerary": "Lịch trình"
+}

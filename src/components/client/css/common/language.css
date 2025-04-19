@@ -1,0 +1,18 @@
+.language-dd {
+  height: 16px;
+}
+
+.language-dd button span{
+  margin: 0px;
+}
+
+.language-dd svg{
+  width: 24px;
+  height: 16px;
+}
+
+.language-menu svg{
+  width: 24px;
+  height: 16px;
+  margin-right: 10px;
+}

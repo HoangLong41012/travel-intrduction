@@ -1,0 +1,8 @@
+@import "./layout/contact.css";
+@import "./layout/header.css";
+@import "./layout/footer.css";
+@import "./layout/layout.css";
+@import "./layout/menu.css";
+
+@import "./common/image.css";
+@import "./common/language.css";
